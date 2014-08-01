@@ -2,10 +2,6 @@
 class getTweet 
 {
 
-	function __construct() {
-		$this->getTweet();
-	}
-
 	function getTweet() {
 		require_once('twitteroauth.php');
 
@@ -19,7 +15,7 @@ class getTweet
 		$keyArray = array('key1', 'key2', 'key3');
 		$key = array_rand($keyArray, 2);
 		$keyword = $keyArray[$key[0]];
-		if (!$keyword) { exit; }
+		if ($keyword) { exit; }
 		$req = $twObj->OAuthRequest("https://api.twitter.com/1.1/search/tweets.json?lang=ja&q=" .$keyword, "GET", array("count"=>"50"));
 		$twconts = json_decode($req);
 		$numResults = count($twconts->statuses);
@@ -37,12 +33,10 @@ class getTweet
 				continue;
 			}
 
-			$i = null;
 			foreach ($ng_word as $word) {
-				if (preg_match($word[$i], $twcont)) {
+				if (preg_match($word, $twcont)) {
 					continue 2;
 				}
-				$i++;
 			}
 
 			$pbtime = strtotime((string)$twconts->statuses[$i]->created_at);
@@ -78,4 +72,3 @@ class getTweet
 	    fclose($fp);        
 	}
 }
-$twit = new getTweet;
