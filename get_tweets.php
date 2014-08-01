@@ -37,12 +37,10 @@ class getTweet
 				continue;
 			}
 
-			$i = null;
 			foreach ($ng_word as $word) {
-				if (preg_match($word[$i], $twcont)) {
+				if (preg_match($word, $twcont)) {
 					continue 2;
 				}
-				$i++;
 			}
 
 			$pbtime = strtotime((string)$twconts->statuses[$i]->created_at);
