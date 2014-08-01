@@ -1,0 +1,4 @@
+getTweets
+=========
+
+Twitter API sample
