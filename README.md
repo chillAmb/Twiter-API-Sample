@@ -1,8 +1,6 @@
 Twitter API sample
 =========
 
-Twitter API‚Å”CˆÓ‚ÌƒL[ƒ[ƒh‚Å‚ÌƒcƒC[ƒgˆê——‚ðŽæ“¾‚·‚éƒTƒ“ƒvƒ‹ƒR[ƒh
+Twitter APIã§ä»»æ„ã®ã‚­ãƒ¼ãƒ¯ãƒ¼ãƒ‰ã§ã®ãƒ„ã‚¤ãƒ¼ãƒˆä¸€è¦§ã‚’å–å¾—ã™ã‚‹ã‚µãƒ³ãƒ—ãƒ«ã‚³ãƒ¼ãƒ‰
 
-‚±‚¿‚ç‚Íƒ‰ƒCƒZƒ“ƒX‚ð–¾Ž¦‚µ‚Ü‚¹‚ñ(No Licesne)
-‘æŽOŽÒ‚É‚æ‚éƒ\[ƒXƒR[ƒh‚Ì•¡»EÄ”z•zE‰ü•Ï‚Í‹–‰Â‚³‚ê‚Ü‚¹‚ñB
-‚ ‚­‚Ü‚Åƒ\[ƒXƒR[ƒh‚ÌƒƒWƒbƒN‚ðƒAƒs[ƒ‹‚·‚é—p“r‚ÅŒöŠJ‚µ‚Ä‚¢‚Ü‚·B
+ã“ã¡ã‚‰ã¯ãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã‚’æ˜Žç¤ºã—ã¾ã›ã‚“(No Licesne)
